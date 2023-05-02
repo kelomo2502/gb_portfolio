@@ -14,8 +14,8 @@ module.exports = {
         "neg": -1,
       },
       fontFamily: {
-        "spectral": ['Poppins', 'sans-serif'],
-        "league": ['Mulish', 'sans-serif'],
+        "spectral": ['Mulish', 'sans-serif'],
+        "league": ['Poppins', 'sans-serif'],
       },
       animation: {
         'spin-once': 'spin 1s linear',
