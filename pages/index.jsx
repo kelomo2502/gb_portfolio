@@ -13,7 +13,7 @@ export default function Home() {
           </span>
           <span>
             Building <span className="italic">interactive</span> <br />
-            user interfaces.
+            and agile solutions .
           </span>
         </h1>
         <div className="gap-10 my-10 md:flex">
