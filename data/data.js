@@ -1,9 +1,9 @@
-import { v4 as uuidv4 } from 'uuid';
-import { BiCodeAlt } from 'react-icons/bi';
-import { BsStars, BsBuilding } from 'react-icons/bs';
-import { MdOutlineVerifiedUser } from 'react-icons/md';
+import { v4 as uuidv4 } from "uuid";
+import { BiCodeAlt } from "react-icons/bi";
+import { BsStars, BsBuilding } from "react-icons/bs";
+import { MdOutlineVerifiedUser } from "react-icons/md";
 
-
+const bookstore = <img src="../public/bookstore.png" />;
 export const projects = [
   {
     id: uuidv4(),
@@ -69,70 +69,101 @@ export const projects = [
       },
     ],
   },
+  {
+    id: uuidv4(),
+    title: "Book Store",
+    description:
+      "A simple web application to add your favorite books, read and monitor reading progress.",
+    image:
+      "https://raw.githubusercontent.com/kelomo2502/git_assets/acbebe19bbf99b6b3a99e744b9b4bc0fac8a7972/bookstore.png",
+    url: "https://zippy-cocada-c293ba.netlify.app/",
+    technologies: [
+      {
+        name: "RectJs",
+        image: "React",
+      },
+      {
+        name: "Redux",
+        image: "redux",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "tailwind",
+      },
+      {
+        name: "REST API",
+        image: "rest-api",
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    title: "Space Traveler",
+    description:
+      "This is an SPA with 3 routes and built with reactJs and redux as its state management tool. The site works by making API call for fetching the rockets and mission data. The site allows users to join any missions of their choice, reserve rockets, cancel rocket reservations.",
+    image:
+      "https://raw.githubusercontent.com/kelomo2502/git_assets/fc9f21bf92d7b4062bcd8dded5f0764981b61ccd/space_traveler.png",
+    url: "https://development--musical-malasada-bc5c63.netlify.app/",
+    technologies: [
+      {
+        name: "RectJs",
+        image: "React",
+      },
+      {
+        name: "Redux",
+        image: "redux",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "tailwind",
+      },
+      {
+        name: "REST API",
+        image: "rest-api",
+      },
+    ],
+  },
 ];
-
-export const skills = [
-  {
-    id: uuidv4(),
-    icon: <BiCodeAlt />,
-    text: "Building accessible and performant apps.",
-  },
-  {
-    id: uuidv4(),
-    icon: <BsBuilding />,
-    text: "Learning fast, building things that solve problems.",
-  },
-  {
-    id: uuidv4(),
-    icon: <BsStars />,
-    text: "Detailed designs and polish websites.",
-  },
-  {
-    id: uuidv4(),
-    icon: <MdOutlineVerifiedUser />,
-    text: "Responsibility and accountability.",
-  }
-]
 
 export const techSkills = [
   {
     id: uuidv4(),
-    skill: 'JavaScript (ES6)',
+    skill: "JavaScript (ES6)",
   },
   {
     id: uuidv4(),
-    skill: 'Ruby on Rails',
+    skill: "Ruby on Rails",
   },
   {
     id: uuidv4(),
-    skill: 'React.js/Next.js',
+    skill: "React.js/Next.js",
   },
   {
     id: uuidv4(),
-    skill: 'Redux',
+    skill: "Redux",
   },
   {
     id: uuidv4(),
-    skill: 'Tailwind CSS',
+    skill: "Tailwind CSS",
   },
   {
     id: uuidv4(),
-    skill: 'Jest/RSpec',
+    skill: "Jest/RSpec",
   },
   {
     id: uuidv4(),
-    skill: 'PostgreSQL',
+    skill: "PostgreSQL",
   },
   {
     id: uuidv4(),
-    skill: 'Agile Methodologies',
+    skill: "Agile Methodologies",
   },
   {
     id: uuidv4(),
-    skill: 'Git/GitHub',
+    skill: "Git/GitHub",
   },
   {
     id: uuidv4(),
-    skill: 'Mobile/Responsive Design',
-  }
-]
+    skill: "Mobile/Responsive Design",
+  },
+];
