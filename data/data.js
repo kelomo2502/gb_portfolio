@@ -34,6 +34,33 @@ export const projects = [
   },
   {
     id: uuidv4(),
+    title: "APT Shipping",
+    description:
+      "A web app that allows users to book, make payment and track their shipments",
+    image:
+      "https://raw.githubusercontent.com/kelomo2502/git_assets/main/aptshipping.png",
+    url: "#",
+    technologies: [
+      {
+        name: "NodeJs",
+        image: "ror",
+      },
+      {
+        name: "React",
+        image: "react",
+      },
+      {
+        name: "Redux",
+        image: "redux",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "tailwind",
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
     title: "MCPD 2022",
     description:
       "A Fashion Summit website that provides information about the event and speakers.",
@@ -132,6 +159,10 @@ export const techSkills = [
   },
   {
     id: uuidv4(),
+    skill: "NodJs/Express",
+  },
+  {
+    id: uuidv4(),
     skill: "Ruby on Rails",
   },
   {
@@ -148,6 +179,10 @@ export const techSkills = [
   },
   {
     id: uuidv4(),
+    skill: "Bootstrap 5",
+  },
+  {
+    id: uuidv4(),
     skill: "Jest/RSpec",
   },
   {
@@ -156,7 +191,20 @@ export const techSkills = [
   },
   {
     id: uuidv4(),
-    skill: "Agile Methodologies",
+    skill: "Sequelize",
+  },
+
+  {
+    id: uuidv4(),
+    skill: "MongoDB",
+  },
+  {
+    id: uuidv4(),
+    skill: "Agile Methodologies(SCRUM)",
+  },
+  {
+    id: uuidv4(),
+    skill: "AzureDevOps",
   },
   {
     id: uuidv4(),

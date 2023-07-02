@@ -9,7 +9,7 @@ export default function Home() {
       <section id="intro" aria-label="intro">
         <h1 className="flex flex-col justify-center h-screen max-w-5xl m-auto mb-4 text-4xl leading-[50px] tracking-tight text-center text-white font-extralight md:text-8xl font-spectral">
           <span className="font-light">
-            Full Stack <span className="text-teal-300">Developer.</span>
+            Full Stack <span className="text-teal-300">Engineer.</span>
           </span>
           <span>
             Building <span className="italic">interactive</span> <br />
@@ -112,7 +112,7 @@ export default function Home() {
           make a new connection.
         </p>
         <a
-          href="mailto:sodiqaderibigbe90@gmail.com"
+          href="mailto:kelvinoye@gmail.com"
           className="pb-2 font-semibold border-b border-teal-300"
         >
           Send me an e-mail
